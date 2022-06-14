@@ -69,8 +69,8 @@ foreign key (ma_ncc) references nha_cung_cap(ma_ncc)
 insert into cung_cap values(50, 1001);
 
 create table so_dien_thoai(
-ma_ncc int,
 sdt varchar(20),
+ma_ncc int,
 foreign key(ma_ncc) references nha_cung_cap(ma_ncc),
 primary key(ma_ncc, sdt)
 );
