@@ -1,3 +1,4 @@
+drop database if exists quan_ly_ban_hang;
 create database quan_ly_ban_hang;
 use quan_ly_ban_hang;
 
@@ -25,10 +26,11 @@ p_price int
 insert into product values(1, 'Laptop Lenovo', 1000);
 
 create table order_detail(
+od_id int primary key,
 o_id int,
 p_id int,
 od_qty int,
 foreign key(o_id) references `order`(o_id),
 foreign key(p_id) references product(p_id)
 );
-insert into order_detail values(1, 1, 5);
+insert into order_detail values(1 ,1, 1, 5);
