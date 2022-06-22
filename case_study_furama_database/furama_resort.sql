@@ -152,7 +152,7 @@ insert into khach_hang values (4,'Dương Văn Quan','1981-07-08',1,'543432111',
 insert into khach_hang values (5,'Hoàng Trần Nhi Nhi','1995-12-09',0,'795453345','0312345678','nhinhi123@gmail.com','224 Lý Thái Tổ, Gia Lai',4);
 insert into khach_hang values (6,'Tôn Nữ Mộc Châu','2005-12-06',0,'732434215','0988888844','tonnuchau@gmail.com','37 Yên Thế, Đà Nẵng',4);
 insert into khach_hang values (7,'Nguyễn Mỹ Kim','1984-04-08',0,'856453123','0912345698','kimcuong84@gmail.com','K123/45 Lê Lợi, Hồ Chí Minh',1);
-insert into khach_hang values (8,'Nguyễn Thị Hào','1999-04-08',1,'965656433','0763212345','haohao99@gmail.com','55 Nguyễn Văn Linh, Kon Tum',3);
+insert into khach_hang values (8,'Nguyễn Thị Hào','1999-04-08',0,'965656433','0763212345','haohao99@gmail.com','55 Nguyễn Văn Linh, Kon Tum',3);
 insert into khach_hang values (9,'Trần Đại Danh','1994-07-01',1,'344343432','0987654321','danhhai99@gmail.com','24 Lý Thường Kiệt, Quảng Ngãi',1);
 insert into khach_hang values (10,'Nguyễn Tâm Đắc','1989-07-01',1,'432341235','0643343433','dactam@gmail.com','22 Ngô Quyền, Đà Nẵng',2);
 
@@ -194,6 +194,8 @@ insert into hop_dong values (7,'2021-09-02','2021-09-05','100000',7,4,4);
 insert into hop_dong values (8,'2021-06-17','2021-06-18','150000',3,4,1);
 insert into hop_dong values (9,'2020-11-19','2020-11-19','0',3,4,4);
 insert into hop_dong values (10,'2021-04-12','2021-04-14','0',10,3,5);
+insert into hop_dong values (11,'2021-04-25','2021-04-25','0',2,2,1);
+insert into hop_dong values (12,'2021-05-25','2021-05-27','0',7,10,1);
 
 -- Thêm mới hợp đồng chi tiết
 insert into hop_dong_chi_tiet values (1, 5, 2, 4);
