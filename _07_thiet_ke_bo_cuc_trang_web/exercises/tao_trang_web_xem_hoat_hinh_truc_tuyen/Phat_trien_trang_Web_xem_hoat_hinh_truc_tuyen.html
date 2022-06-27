@@ -2,168 +2,192 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Web xem hoạt hình trực tuyến</title>
+    <title>Trang Phim Hoat Hinh</title>
     <link rel="stylesheet" href="Phat_trien_trang_Web_xem_hoat_hinh_truc_tuyen.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+        .row::after {
+            clear: both;
+            content: "";
+            display: block;
+        }
+
+        .logo-header {
+            background-color: cornflowerblue;
+            font-size: 20px;
+        }
+
+        .logo {
+            color: white;
+            display: inline-block;
+            padding: 10px 0px;
+            background-color: red;
+            border-radius: 10px;
+        }
+
+        .menu-header {
+            background-color: navajowhite;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+        @media only screen and ( max-width: 768px ) {
+            .menu-header {
+                background-color: #CDCDCD;
+                margin-top: 7px;
+                text-align: center;
+            }
+
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+        @media only screen and ( max-width: 1000px ) {
+            .menu-header {
+                background-color: #CDCDCD;
+                margin-top: 7px;
+                text-align: center;
+            }
+        }
+        .row-menu-link{
+            background-color: #0dcaf0;
+        }
+
+    </style>
 </head>
 <body>
-<div class="header">
-    <img src="https://yt3.ggpht.com/a/AATXAJyP-eaa7u046k0jZKvWoCVH8Qp_wbYcgYTw6QML_A=s900-c-k-c0xffffffff-no-rj-mo"
-         height="50px" width="5%">
-</div>
-<div class="menulink">
-    <div class="menulink1">
-        <p>Phim hoạt hình &emsp; |</p>
+<div class="row-menu-link">
+    <div class="row logo-header">
+        <img src="https://yt3.ggpht.com/a/AATXAJyP-eaa7u046k0jZKvWoCVH8Qp_wbYcgYTw6QML_A=s900-c-k-c0xffffffff-no-rj-mo"
+             height="50px" width="5%">
     </div>
-    <div class="menulink2">
-        <p>Phim hoạt hình yêu thích &emsp; |</p>
+    <div class="row menu-header">
+        Phim hoạt hình | Phim Yêu Thích | Phim xem nhiều | Góp ý
     </div>
-    <div class="menulink3">
-        <p>Nhân vật hoạt hình &emsp; |</p>
-    </div>
-    <div class="menulink2">
-        <p>Gợi ý</p>
-    </div>
-</div>
-<div class="menuvideo">
-    <section>
-        <img src="https://sites.google.com/site/phimdoremon2016/_/rsrc/1458119357156/ke-hoach-ngay-sinh-nhat/phim-hoat-hinh-doraemon11.jpg"
-             width="80%" height="200px">
-        <div><strong>Kế hoạch ngày sinh nhật</strong><small>- 1.200.081 lượt xem</small></div>
-        <div>POPS Kids</div>
-    </section>
-    <section>
-        <img src="https://vnw-img-cdn.popsww.com/api/v1/containers/file2/cms_thumbnails/doraemon_thumbnail_popskids_ss6_49-01e2a4c5e627-1558669564423-xkhiqHd3.png?v=0&maxW=640"
-             width="80%" height="200px">
-        <div><strong>Pháp sư gọi hồn</strong><small>- 26.250.707 lượt xem</small></div>
-        <div>POPS Kids</div>
-    </section>
-    <section>
-        <img src="https://thegioidienanh.vn/stores/news_dataimages/thanhtan/032021/19/21/in_article/1658_4.jpg?rt=20210319211806"
-             width="80%" height="200px">
-        <div><strong>Người bạn ốm dài của Nobita, Hồi xưa mẹ cũng như Nobita</strong><small>- 2.955.645 lượt xem</small>
+    <div class="row">
+        <div class="col-12">
+            <div class="col-4" style="background-color: #CDCDCD ">
+                <div class="row">
+                    <div class="col-12">
+                        <iframe width="430" height="315" src="https://www.youtube.com/embed/UpMGmgySP9c"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3>Phim hoạt hình</h3>
+                        <small> 2.955.645 lượt xem</small>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <iframe width="430" height="315" src="https://www.youtube.com/embed/6uv-SCSJ--s"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3>Phim hoạt hình</h3>
+                        <small> 3.955.645 lượt xem</small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <iframe width="430" height="315" src="https://www.youtube.com/embed/NOuLOmLgFp8"
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h2>Phim hoạt hình</h2>
+                        <small> 1.955.645 lượt xem</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-12">
+                        <iframe width="900" height="560" src="https://www.youtube.com/embed/wMVps4uajdU"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        <h3>Phim hoạt hình</h3>
+                        <h4>Truy cập website POPS Kids: www.kids.pops.vn</h4>
+                        <h4>Doraemon được mua bản quyền và được cập nhật phát sóng trên ứng dụng giải trí POPS Kids &
+                            kênh YouTube POPS Kids. Đây là bộ phim chuyển thể từ truyện tranh hấp dẫn nhất Nhật Bản:
+                            Doraemon của tác giả Fujiko Fujio sáng tác từ năm 1969.
+
+                            Bộ truyện kể về một chú mèo máy tên Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5 hậu
+                            đậu tên là Nobi Nobita. Sewashi (Nobito), cháu ba đời của Nobita gửi Doraemon về quá khứ
+                            nhằm giúp đỡ ông mình, qua đó cải thiện được hoàn cảnh của con cháu Nobita sau này.
+
+                            Các tập phim Doraemon thường xoay quanh những rắc rối hay xảy ra với cậu bé Nobita. Cốt
+                            truyện thường gặp nhất là Nobita trở về nhà khóc lóc với Doraemon vì những rắc rối mà cậu
+                            gặp phải ở trường học hoặc với bạn bè. Sau khi bị cậu van nài hoặc thúc giục, Doraemon sẽ
+                            lấy ra một bảo bối trong chiếc túi thần kỳ trước bụng để giúp Nobita giải quyết rắc rối
+                            của mình.
+
+                            Nhưng Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon. Cậu thường
+                            lấy sự ưu việt của bảo bối để trêu ghẹo mọi người nên cuối cùng bị phản tác dụng, bị
+                            bảo bối gây phiền phức. Có đôi khi những người bạn của Nobita, thường là Suneo hoặc Jaian
+                            lại lấy trộm những bảo bối và sử dụng chúng không đúng mục đích. Kết thúc mỗi câu chuyện,
+                            những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra, từ đó khán giả
+                            sẽ rút ra được bài học cho riêng mình.</h4>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>POPS Kids</div>
-    </section>
-    <section>
-        <img src="https://i.ytimg.com/vi/6mX66RFC8AU/maxresdefault.jpg" width="80%" height="200px">
-        <div><strong>Nobita trong tim Nobita</strong><small>- 34.487.850 lượt xem</small></div>
-        <div>POPS Kids</div>
-    </section>
-</div>
-<div class="video">
-    <section>
-        <iframe width="100%" height="534" src="https://www.youtube.com/embed/wMVps4uajdU" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div><strong>Kế hoạch ngày sinh nhật</strong><small>- 1.200.081 lượt xem</small></div>
-        <div>POPS Kids</div>
-        <p>
-            Doraemon được mua bản quyền và được cập nhật phát sóng trên ứng dụng giải trí POPS Kids & kênh YouTube POPS
-            Kids. Đây là bộ phim chuyển thể từ truyện tranh hấp dẫn nhất Nhật Bản: Doraemon của tác giả Fujiko Fujio
-            sáng tác từ năm 1969. <br> <br>
-
-            Bộ truyện kể về một chú mèo máy tên Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5 hậu đậu tên là Nobi
-            Nobita. Sewashi (Nobito), cháu ba đời của Nobita gửi Doraemon về quá khứ nhằm giúp đỡ ông mình, qua đó cải
-            thiện được hoàn cảnh của con cháu Nobita sau này.<br> <br>
-
-            Các tập phim Doraemon thường xoay quanh những rắc rối hay xảy ra với cậu bé Nobita. Cốt truyện thường gặp
-            nhất là Nobita trở về nhà khóc lóc với Doraemon vì những rắc rối mà cậu gặp phải ở trường học hoặc với bạn
-            bè. Sau khi bị cậu van nài hoặc thúc giục, Doraemon sẽ lấy ra một bảo bối trong chiếc túi thần kỳ trước
-            bụng để giúp Nobita giải quyết rắc rối của mình. <br> <br>
-
-            Nhưng Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon. Cậu thường lấy sự ưu việt của
-            bảo bối để trêu ghẹo mọi người nên cuối cùng bị phản tác dụng, bị bảo bối gây phiền phức. Có đôi khi những
-            người bạn của Nobita, thường là Suneo hoặc Jaian lại lấy trộm những bảo bối và sử dụng chúng không đúng mục
-            đích. Kết thúc mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra,
-            từ đó khán giả sẽ rút ra được bài học cho riêng mình.
-        </p>
-    </section>
-    <section>
-        <iframe width="100%" height="534" src="https://www.youtube.com/embed/NpIAxXboFmg" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div><strong>Pháp sư gọi hồn</strong><small>- 15.643.916 lượt xem</small></div>
-        <div>POPS Kids</div>
-        <p>
-            Doraemon được mua bản quyền và được cập nhật phát sóng trên ứng dụng giải trí POPS Kids & kênh YouTube POPS
-            Kids. Đây là bộ phim chuyển thể từ truyện tranh hấp dẫn nhất Nhật Bản: Doraemon của tác giả Fujiko Fujio
-            sáng tác từ năm 1969. <br> <br>
-
-            Bộ truyện kể về một chú mèo máy tên Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5 hậu đậu tên là Nobi
-            Nobita. Sewashi (Nobito), cháu ba đời của Nobita gửi Doraemon về quá khứ nhằm giúp đỡ ông mình, qua đó cải
-            thiện được hoàn cảnh của con cháu Nobita sau này.<br> <br>
-
-            Các tập phim Doraemon thường xoay quanh những rắc rối hay xảy ra với cậu bé Nobita. Cốt truyện thường gặp
-            nhất là Nobita trở về nhà khóc lóc với Doraemon vì những rắc rối mà cậu gặp phải ở trường học hoặc với bạn
-            bè. Sau khi bị cậu van nài hoặc thúc giục, Doraemon sẽ lấy ra một bảo bối trong chiếc túi thần kỳ trước
-            bụng để giúp Nobita giải quyết rắc rối của mình. <br> <br>
-
-            Nhưng Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon. Cậu thường lấy sự ưu việt của
-            bảo bối để trêu ghẹo mọi người nên cuối cùng bị phản tác dụng, bị bảo bối gây phiền phức. Có đôi khi những
-            người bạn của Nobita, thường là Suneo hoặc Jaian lại lấy trộm những bảo bối và sử dụng chúng không đúng mục
-            đích. Kết thúc mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra,
-            từ đó khán giả sẽ rút ra được bài học cho riêng mình.
-        </p>
-    </section>
-    <section>
-        <iframe width="100%" height="534" src="https://www.youtube.com/embed/mRNQg2TRQL4" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div><strong>Người bạn ốm dài của Nobita, Hồi xưa mẹ cũng như Nobita</strong><small>- 26.250.707 lượt
-            xem</small></div>
-        <div>POPS Kids</div>
-        <p>
-            Doraemon được mua bản quyền và được cập nhật phát sóng trên ứng dụng giải trí POPS Kids & kênh YouTube POPS
-            Kids. Đây là bộ phim chuyển thể từ truyện tranh hấp dẫn nhất Nhật Bản: Doraemon của tác giả Fujiko Fujio
-            sáng tác từ năm 1969. <br> <br>
-
-            Bộ truyện kể về một chú mèo máy tên Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5 hậu đậu tên là Nobi
-            Nobita. Sewashi (Nobito), cháu ba đời của Nobita gửi Doraemon về quá khứ nhằm giúp đỡ ông mình, qua đó cải
-            thiện được hoàn cảnh của con cháu Nobita sau này.<br> <br>
-
-            Các tập phim Doraemon thường xoay quanh những rắc rối hay xảy ra với cậu bé Nobita. Cốt truyện thường gặp
-            nhất là Nobita trở về nhà khóc lóc với Doraemon vì những rắc rối mà cậu gặp phải ở trường học hoặc với bạn
-            bè. Sau khi bị cậu van nài hoặc thúc giục, Doraemon sẽ lấy ra một bảo bối trong chiếc túi thần kỳ trước
-            bụng để giúp Nobita giải quyết rắc rối của mình. <br> <br>
-
-            Nhưng Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon. Cậu thường lấy sự ưu việt của
-            bảo bối để trêu ghẹo mọi người nên cuối cùng bị phản tác dụng, bị bảo bối gây phiền phức. Có đôi khi những
-            người bạn của Nobita, thường là Suneo hoặc Jaian lại lấy trộm những bảo bối và sử dụng chúng không đúng mục
-            đích. Kết thúc mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra,
-            từ đó khán giả sẽ rút ra được bài học cho riêng mình.
-        </p>
-    </section>
-    <section>
-        <iframe width="100%" height="534" src="https://www.youtube.com/embed/yPTTFuG85OI" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <div><strong>Nobita trong tim Nobita</strong><small>- 34.487.850 lượt xem</small></div>
-        <div>POPS Kids</div>
-        <p>
-            Doraemon được mua bản quyền và được cập nhật phát sóng trên ứng dụng giải trí POPS Kids & kênh YouTube POPS
-            Kids. Đây là bộ phim chuyển thể từ truyện tranh hấp dẫn nhất Nhật Bản: Doraemon của tác giả Fujiko Fujio
-            sáng tác từ năm 1969. <br> <br>
-
-            Bộ truyện kể về một chú mèo máy tên Doraemon đến từ thế kỉ 22 để giúp một cậu bé lớp 5 hậu đậu tên là Nobi
-            Nobita. Sewashi (Nobito), cháu ba đời của Nobita gửi Doraemon về quá khứ nhằm giúp đỡ ông mình, qua đó cải
-            thiện được hoàn cảnh của con cháu Nobita sau này.<br> <br>
-
-            Các tập phim Doraemon thường xoay quanh những rắc rối hay xảy ra với cậu bé Nobita. Cốt truyện thường gặp
-            nhất là Nobita trở về nhà khóc lóc với Doraemon vì những rắc rối mà cậu gặp phải ở trường học hoặc với bạn
-            bè. Sau khi bị cậu van nài hoặc thúc giục, Doraemon sẽ lấy ra một bảo bối trong chiếc túi thần kỳ trước
-            bụng để giúp Nobita giải quyết rắc rối của mình. <br> <br>
-
-            Nhưng Nobita sẽ lại thường đi quá xa so với dự định ban đầu của Doraemon. Cậu thường lấy sự ưu việt của
-            bảo bối để trêu ghẹo mọi người nên cuối cùng bị phản tác dụng, bị bảo bối gây phiền phức. Có đôi khi những
-            người bạn của Nobita, thường là Suneo hoặc Jaian lại lấy trộm những bảo bối và sử dụng chúng không đúng mục
-            đích. Kết thúc mỗi câu chuyện, những ai sử dụng sai mục đích bảo bối sẽ phải chịu hậu quả do mình gây ra,
-            từ đó khán giả sẽ rút ra được bài học cho riêng mình.
-        </p>
-    </section>
+        <div class="col-12" style="background-color: #CDCDCD" > <p style="text-align: center">2017 - Thiết lế Web</p></div>
+    </div>
 </div>
 </body>
 </html>
