@@ -14,8 +14,8 @@ public class CustomerServlet extends HttpServlet {
 
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<Customer> customerList = new ArrayList<>();
+    static List<Customer> customerList = new ArrayList<>();
+    static {
         customerList.add(new Customer("Mai Văn Hoàn", "1983-08-20", "Hà Nội",
                 "https://1.bp.blogspot.com/-WuxmNotEkM0/XowLMlnulDI/AAAAAAAAbcQ/25fdsH1pXascGhlz7bN_A1VYjpcSOLZ4gCLcBGAsYHQ/s1600/Trai-dep-che-mat-chat%2B%25283%2529.jpg"));
         customerList.add(new Customer("Nguyễn Văn Nam", "1983-08-21", "Bắc Giang",
@@ -26,8 +26,11 @@ public class CustomerServlet extends HttpServlet {
                 "https://1.bp.blogspot.com/-vdrYDhQm74o/XowLJtXxIsI/AAAAAAAAbbs/7b_l0Oceysw9JF541rMZnTWyZj3hNoyYgCLcBGAsYHQ/s1600/Trai-dep-che-mat-chat%2B%252817%2529.jpg"));
         customerList.add(new Customer("Nguyễn Đình Thi", "1983-08-19", "Hà Nội",
                 "https://ttol.vietnamnetjsc.vn/images/2018/12/26/10/34/goc-nghieng-than-thanh-2.jpg"));
-        request.setAttribute("customer",customerList);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/index.jsp");
-        requestDispatcher.forward(request,response);
     }
-}
+    
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+            request.setAttribute("customer", customerList);
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("/index.jsp");
+            requestDispatcher.forward(request, response);
+        }
+    }

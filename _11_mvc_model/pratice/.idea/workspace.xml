@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87d75ba5-95df-47a7-ba41-c977ceec3f5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/src/main/webapp/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/calculator/src/main/webapp/result.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/build/classes/java/main/DiscountCalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/build/classes/java/main/DiscountCalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/build/libs/product_discount_calculator-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/build/libs/product_discount_calculator-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/src/main/java/DiscountCalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../_09_tong_quan_ung_dung_web/exercises/product_discount_calculator/src/main/java/DiscountCalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/customer-list/src/main/java/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/customer-list/src/main/java/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/build/classes/java/main/controller/StudentServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/build/classes/java/main/model/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/build/libs/hien_thi_danh_sach_khach_hang-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/src/main/java/controller/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/src/main/java/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_10_jsp_jstl/exercises/hien_thi_danh_sach_khach_hang/src/main/webapp/clientList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/classes/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../apache-tomcat-9.0.64/webapps/ROOT/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2BEZ93WgTdOz0kSNYDTfJktjW7w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87d75ba5-95df-47a7-ba41-c977ceec3f5d" name="Default Changelist" comment="" />
+      <created>1656473049730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656473049730</updated>
+      <workItem from="1656473051212" duration="218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1656473056124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1656473056124" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1656473080836">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1656473080836" />
+    <state x="209" y="23" key="new project wizard" timestamp="1656473270782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1656473270782" />
+  </component>
+</project>

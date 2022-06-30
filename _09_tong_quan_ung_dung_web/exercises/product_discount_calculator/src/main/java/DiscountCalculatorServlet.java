@@ -17,11 +17,15 @@ public class DiscountCalculatorServlet extends HttpServlet {
         float discountPercent = Float.parseFloat(request.getParameter("numberDiscountRate"));
         
         double discountAmount = listPrice * discountPercent * 0.01;
-
-        PrintWriter writer = response.getWriter();
-        writer.println("<html>");
-        writer.println("<h3>Discount Amount: " + discountAmount + "</h3>");
-        writer.println("<h3>Discount Price: " + (listPrice - discountAmount) + "</h3>");
-        writer.println("</html>");
+        request.setAttribute("listPrice", listPrice);
+        request.setAttribute("discountPercent", discountPercent);
+        request.setAttribute("discountAmount", discountAmount);
+        request.getRequestDispatcher("/result.jsp").forward(request, response);
+//
+//        PrintWriter writer = response.getWriter();
+//        writer.println("<html>");
+//        writer.println("<h3>Discount Amount: " + discountAmount + "</h3>");
+//        writer.println("<h3>Discount Price: " + (listPrice - discountAmount) + "</h3>");
+//        writer.println("</html>");
     }
 }

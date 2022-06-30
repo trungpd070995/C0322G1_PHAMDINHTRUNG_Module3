@@ -12,18 +12,13 @@ public class CalculatorServlet extends HttpServlet {
         float firstOperand = Integer.parseInt(request.getParameter("first-operand"));
         float secondOperand = Integer.parseInt(request.getParameter("second-operand"));
         char operator = request.getParameter("operator").charAt(0);
+        float result = Calculator.calculate(firstOperand,secondOperand,operator);
 
-        PrintWriter writer = response.getWriter();
-        writer.println("<html>");
-        writer.println("<h1>Result:</h1>");
-
-        try{
-            float result = Calculator.calculate(firstOperand, secondOperand, operator);
-            writer.println(firstOperand + " " + operator + " " + secondOperand + " = " + result);
-        }catch (Exception e){
-            writer.println("Error: " + e.getMessage());
-        }
-        writer.println("</html>");
+        request.setAttribute("firstOperand", firstOperand);
+        request.setAttribute("secondOperand", secondOperand);
+        request.setAttribute("operator", operator);
+        request.setAttribute("result", result);
+        request.getRequestDispatcher("result.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
